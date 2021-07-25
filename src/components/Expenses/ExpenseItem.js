@@ -1,5 +1,9 @@
+// not technically needed but emphasizes that jsx syntax is 
+// using functionality from the React module behind the scenes
+import React from 'react';
+
 import ExpenseDate from './ExpenseDate';
-import Card from './Card'
+import Card from '../UI/Card'
 import './ExpenseItem.css';
 
 function ExpenseItem(props) {
